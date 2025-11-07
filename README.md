@@ -18,7 +18,6 @@ Demonstrates core Java concepts like **OOP**, **Exception Handling**, and basic 
 - **Tools**: VS Code / Eclipse, Git, GitHub
 
 ## Project Structure
-Project Structure
 -----------------
 Library_Management_System/
 │
@@ -30,12 +29,12 @@ Library_Management_System/
 │       └── Book.java     - Book model
 └── README.txt            - Project documentation
 
-Setup Instructions
+## Setup Instructions
 ------------------
 1. Clone the repository:
    git clone https://github.com/Ashitosh9922/Library_Management_System.git
    cd Library_Management_System
-
+   
 2. Install MySQL and create a database:
    CREATE DATABASE library_db;
    CREATE TABLE books (
@@ -46,8 +45,8 @@ Setup Instructions
        available BOOLEAN DEFAULT TRUE
    );
 
-3. Add MySQL Connector JAR (included in lib folder) to your project classpath.
+4. Add MySQL Connector JAR (included in lib folder) to your project classpath.
 
-4. Compile and run:
+5. Compile and run:
    javac -cp ".;lib/mysql-connector-java-9.5.0.jar" src/library/*.java
    java -cp ".;lib/mysql-connector-java-9.5.0.jar" library.Main
